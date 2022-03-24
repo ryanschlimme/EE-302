@@ -9,7 +9,8 @@ void setup() {
   background(255,100,100); //sets background to RBG value 255,100,100
   textFont(f); //sets font to the created font stored as f
   fill(0); //fills the background with 0
-  text("When the square turns green, \nhold down the space bar.", 100, 300); //displays the following text at (x,y) coordinates (100,300) with a line break at \n
+  text("When the square turns green, \nhold down the space bar.", 100, 300); //displays the following text at (x,y) coordinates (100,300) with a line break 
+                                                                             //at \n
   size(700, 700); //sets the box to size 700 x 700 pixels
 }
 
